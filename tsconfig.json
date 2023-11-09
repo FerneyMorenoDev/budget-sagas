@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"target": "ES5",
+		"module": "NodeNext",
+		"lib": ["ES6", "DOM"],
+		"strict": true,
+		"esModuleInterop": true,
+		"moduleResolution": "NodeNext"
+	}
+}
+
