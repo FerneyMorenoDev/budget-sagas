@@ -7,7 +7,5 @@ export const MainHeader = ({
 }: {
 	type?: string;
 	title: string;
-}): React.JSX.Element => {
-	return <Header as={type}>{title}</Header>;
-};
+}): React.JSX.Element => <Header as={type}>{title}</Header>;
 

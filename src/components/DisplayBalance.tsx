@@ -1,7 +1,7 @@
 import React from 'react';
 import { Statistic } from 'semantic-ui-react';
-import { SemanticCOLORS } from 'semantic-ui-react/dist/commonjs/generic';
-import { StatisticSizeProp } from 'semantic-ui-react/dist/commonjs/views/Statistic/Statistic';
+import { type SemanticCOLORS } from 'semantic-ui-react/dist/commonjs/generic';
+import { type StatisticSizeProp } from 'semantic-ui-react/dist/commonjs/views/Statistic/Statistic';
 
 export const DisplayBalance = ({
 	size,
@@ -13,12 +13,10 @@ export const DisplayBalance = ({
 	label: string;
 	value: string;
 	color?: SemanticCOLORS;
-}): React.JSX.Element => {
-	return (
-		<Statistic color={color} size={size}>
-			<Statistic.Label>{label}</Statistic.Label>
-			<Statistic.Value>{value}</Statistic.Value>
-		</Statistic>
-	);
-};
+}): React.JSX.Element => (
+	<Statistic color={color} size={size}>
+		<Statistic.Label>{label}</Statistic.Label>
+		<Statistic.Value>{value}</Statistic.Value>
+	</Statistic>
+);
 

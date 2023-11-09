@@ -1,4 +1,4 @@
-import { Container, Grid, Icon, Segment } from 'semantic-ui-react';
+import { Container } from 'semantic-ui-react';
 import { MainHeader } from './components/MainHeader';
 import './App.css';
 import React from 'react';
