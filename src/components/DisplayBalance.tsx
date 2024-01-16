@@ -11,7 +11,7 @@ export const DisplayBalance = ({
 }: {
 	size: StatisticSizeProp;
 	label: string;
-	value: string;
+	value: number;
 	color?: SemanticCOLORS;
 }): React.JSX.Element => (
 	<Statistic color={color} size={size}>

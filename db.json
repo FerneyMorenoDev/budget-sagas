@@ -1,0 +1,22 @@
+{
+  "movements": [
+    {
+      "id": "46fgfd64",
+      "description": "second item",
+      "value": 500,
+      "isExpense": false
+    },
+    {
+      "id": "780dae1f-c53a-408c-9dd1-1b33121992b3",
+      "description": "carro",
+      "value": 90,
+      "isExpense": false
+    },
+    {
+      "id": "d1f9b7cc-9982-4863-be07-afeb971901ea",
+      "description": "clases de ingles",
+      "value": 120000,
+      "isExpense": true
+    }
+  ]
+}
